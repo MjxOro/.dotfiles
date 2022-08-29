@@ -6,6 +6,7 @@ source ~/.config/fish/alias.fish
 #set theme_color_scheme dracula
 set theme_color_scheme terminal-dark
 
+
 # Gotham Shell
 eval sh $HOME/.config/gotham/gotham.sh
 
