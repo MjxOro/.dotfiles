@@ -46,4 +46,8 @@ packer.startup(function(use)
 
   use 'lewis6991/gitsigns.nvim'
   use 'dinhhuy258/git.nvim' -- For git blame & browse
+  -- catpuccin theme
+  use { 'catppuccin/nvim', as = 'catppuccin' }
+  -- poimandres theme
+  use { 'olivercederborg/poimandres.nvim', as = 'poimandres' }
 end)
