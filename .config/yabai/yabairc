@@ -36,10 +36,15 @@ yabai -m config mouse_action1                move
 yabai -m config mouse_action2                resize
 yabai -m config mouse_drop_action            swap
 
+# Managed windows
+yabai -m rule --add app!="^(iTerm2)$" manage=off
 #Floating windows
-yabai -m rule --add app="^Music$" manage=off
-yabai -m rule --add app="^Inkdrop$" manage=off
-yabai -m rule --add app="^Simulator$" manage=off
+#yabai -m rule --add app="^Music$" manage=off
+#yabai -m rule --add app="^Inkdrop$" manage=off
+#yabai -m rule --add app="^Simulator$" manage=off
+#yabai -m rule --add app="^Messages$" manage=off
+#yabai -m rule --add app="^Insomnia$" manage=off
+#yabai -m rule --add app="^Finder$" manage=off
 
 # general space settings
 yabai -m config layout                       bsp
